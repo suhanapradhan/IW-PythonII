@@ -1,0 +1,11 @@
+tuple=('Suhana','Pradhan','21')
+list=[]
+list.append(tuple)
+tuple1=('Swechhya',"kayastha",'29')
+tuple2=('david','Shrestha','27')
+list.append(tuple1)
+list.append(tuple2)
+print(list)
+print("sorting by age")
+list.sort(key= lambda x:x[2])
+print(list)
